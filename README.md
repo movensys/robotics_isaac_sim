@@ -1,10 +1,11 @@
 # 3D Files for Movensys Manipulator
 
-This repository provides USD files for running `movensys_isaac_manipulator` in NVIDIA Isaac Sim.
+This repository provides USD files for running `movensys_thor_manipulator` in NVIDIA Isaac Sim.
 
 ## 1. Quick Start Guide
 
 ### 1-1. Environment Setup
+In case of ROS2 humble,
 ```
 export ROS_DOMAIN_ID=70
 export ROS_DISTRO=humble
@@ -28,4 +29,4 @@ source /opt/ros/humble/setup.bash
 
 ## 2. Related Repositories
 
-- [movensys_isaac_manipulator](https://bitbucket.org/movensys/movensys_isaac_manipulator) - Isaac Manipulator ROS2 package
+- [movensys_thor_manipulator](https://github.com/movensys/movensys_thor_manipulator) - Isaac Thor Manipulator example for WMX ROS2 package
