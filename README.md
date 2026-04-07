@@ -19,11 +19,11 @@ source /opt/ros/humble/setup.bash
 
 1. Run Isaac Sim.
 ```
-~/isaacsim/isaac-sim.selector.sh
+~/workspaces/isaacsim/isaac-sim.selector.sh
 ```
 2. Activate `isaacsim.ros2.bridge`
 3. Click `Start`
-4. Open USD file: `~/robotics_isaac_sim/<usd_name>.usd` as your test scenario.
+4. Open USD file: `~/workspaces/robotics_isaac_sim/<usd_name>.usd` as your test scenario.
 5. Click `Play` on the left side.
 
 
