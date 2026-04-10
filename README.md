@@ -10,9 +10,12 @@ In case of ROS2 humble,
 export ROS_DOMAIN_ID=70
 export ROS_DISTRO=humble
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/humble/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/$ROS_DISTRO/lib
 
-source /opt/ros/humble/setup.bash
+source /opt/ros/$ROS_DISTRO/setup.bash
+```
+```
+source ~/.bashrc
 ```
 
 ### 1-2. Running Isaac Sim
